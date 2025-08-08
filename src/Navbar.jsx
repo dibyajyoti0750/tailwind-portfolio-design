@@ -20,7 +20,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className="hidden md:flex gap-8 text-stone-500 font-medium antialiased">
+        <div className="hidden md:flex gap-8 text-gray-600 font-medium antialiased">
           <a href="#" className="hover:text-black">
             About
           </a>

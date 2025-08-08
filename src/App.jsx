@@ -1,6 +1,7 @@
 import About from "./About";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Skills from "./Skills";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
     </>
   );
 }

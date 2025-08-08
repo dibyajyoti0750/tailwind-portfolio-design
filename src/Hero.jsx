@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { ArrowForward, Download } from "@mui/icons-material";
+import { assets } from "./assets/assets";
 
 export default function Hero() {
   return (
@@ -25,14 +26,23 @@ export default function Hero() {
           </Button>
         </div>
 
-        <div className="flex gap-4 my-10 justify-start">
-          <a href="#" className="opacity-50 hover:opacity-75">
+        <div className="flex gap-4 my-10 justify-center md:justify-start">
+          <a
+            href="https://github.com/dibyajyoti0750"
+            className="opacity-50 hover:opacity-75"
+          >
             <Github />
           </a>
-          <a href="#" className="opacity-50 hover:opacity-75">
+          <a
+            href="https://www.linkedin.com/in/dibyajyotipramanick/"
+            className="opacity-50 hover:opacity-75"
+          >
             <Linkedin />
           </a>
-          <a href="#" className="opacity-50 hover:opacity-75">
+          <a
+            href="mailto:dibyajyotipramanick0750@gmail.com"
+            className="opacity-50 hover:opacity-75"
+          >
             <Mail />
           </a>
         </div>
@@ -41,7 +51,7 @@ export default function Hero() {
       <div className="w-full lg:w-1/3 mt-8 lg:mt-0 flex justify-center">
         <img
           className="border-5 border-stone-100 rounded-full w-82 shadow-2xl"
-          src="https://images.pexels.com/photos/977402/pexels-photo-977402.jpeg"
+          src={assets.Selfie}
           alt="Profile"
         />
       </div>

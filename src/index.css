@@ -4,3 +4,7 @@
 * {
   font-family: "Geist", sans-serif;
 }
+
+.smallCard {
+  @apply flex flex-col items-center rounded bg-white py-4 w-full;
+}

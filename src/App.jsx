@@ -1,6 +1,7 @@
 import About from "./About";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <About />
       <Skills />
+      <Projects />
     </>
   );
 }

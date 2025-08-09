@@ -11,36 +11,39 @@ export default function Skills() {
         }
       />
 
-      <div className="flex w-full justify-around">
-        <div className="skillsCard">
-          <div className="w-18 bg-sky-100 p-4 rounded-full">
-            <img className="" src={assets.reactIcon} alt="React Icon" />
+      <div className="flex flex-col sm:flex-row flex-wrap justify-around items-center w-full mt-8">
+        {/* Frontend */}
+        <div className="skillsCard flex flex-col items-center gap-4">
+          <div className="w-18 bg-sky-100 p-4 rounded-full flex items-center justify-center">
+            <img src={assets.reactIcon} alt="React Icon" />
           </div>
-          <p>Frontend</p>
-          <div className="flex gap-2">
+          <p className="font-semibold">Frontend</p>
+          <div className="flex flex-wrap gap-2 justify-center">
             <span className="technologies">React.js</span>
             <span className="technologies">Tailwind CSS</span>
           </div>
         </div>
 
-        <div className="skillsCard">
-          <div className="w-18 bg-emerald-100 p-4 rounded-full">
-            <img src={assets.nodeIcon} />
+        {/* Backend */}
+        <div className="skillsCard flex flex-col items-center gap-4">
+          <div className="w-18 bg-emerald-100 p-4 rounded-full flex items-center justify-center">
+            <img src={assets.nodeIcon} alt="Node.js Icon" />
           </div>
-          <p>Backend</p>
-          <div className="flex gap-2">
+          <p className="font-semibold">Backend</p>
+          <div className="flex flex-wrap gap-2 justify-center">
             <span className="technologies">Node.js</span>
             <span className="technologies">Express.js</span>
             <span className="technologies">MongoDB</span>
           </div>
         </div>
 
-        <div className="skillsCard">
-          <div className="w-18 bg-rose-100 p-4 rounded-full">
-            <img src={assets.githubIcon} />
+        {/* Tools */}
+        <div className="skillsCard flex flex-col items-center gap-4">
+          <div className="w-18 bg-rose-100 p-4 rounded-full flex items-center justify-center">
+            <img src={assets.githubIcon} alt="GitHub Icon" />
           </div>
-          <p>Tools</p>
-          <div className="flex gap-2">
+          <p className="font-semibold">Tools</p>
+          <div className="flex flex-wrap gap-2 justify-center">
             <span className="technologies">Git</span>
             <span className="technologies">GitHub</span>
             <span className="technologies">Docker</span>

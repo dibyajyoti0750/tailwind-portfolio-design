@@ -8,3 +8,11 @@
 .smallCard {
   @apply flex flex-col items-center rounded bg-white py-4 w-full;
 }
+
+.skillsCard {
+  @apply flex flex-col items-center gap-2 py-10;
+}
+
+.technologies {
+  @apply bg-gray-100 text-sm rounded-4xl py-1 px-3;
+}

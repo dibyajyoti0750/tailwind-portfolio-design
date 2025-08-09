@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <div className="w-full flex flex-col items-center bg-blue-50 py-16 px-4 text-lg">
-      <div className="w-full md:w-2/4 flex flex-col items-center mb-10">
+      <div className="w-full md:w-2/3 flex flex-col items-center mb-10">
         <Heading title={"About Me"} desc={aboutMe} />
       </div>
 

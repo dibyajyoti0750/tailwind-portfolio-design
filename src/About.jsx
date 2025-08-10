@@ -6,12 +6,12 @@ export default function About() {
     "I'm a dedicated developer with 5+ years of experience building web applications that solve real-world problems and deliver exceptional user experiences.";
 
   return (
-    <div className="w-full flex flex-col items-center bg-blue-50 py-16 px-4 text-lg">
+    <div className="w-full flex flex-col items-center bg-blue-50 py-16 px-2 text-lg">
       <div className="w-full md:w-2/3 flex flex-col items-center mb-10">
         <Heading title={"About Me"} desc={aboutMe} />
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between w-full md:px-12 gap-8">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 md:px-12 gap-8">
         <div className="w-full md:w-2/4">
           <h2 className="text-2xl font-bold">My Journey</h2>
           <p className="py-4 text-gray-600">

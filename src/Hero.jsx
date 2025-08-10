@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="w-full lg:w-1/3 mt-8 lg:mt-0 flex justify-center">
+      <div className="w-full lg:w-1/3 lg:mt-0 flex justify-center">
         <img
           className="w-84 h-84 border-[6px] border-stone-100 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.2)] object-cover"
           src={assets.hero1}

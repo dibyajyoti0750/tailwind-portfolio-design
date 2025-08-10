@@ -3,7 +3,7 @@ import Heading from "./Heading";
 
 export default function Skills() {
   return (
-    <div className="py-12">
+    <div className="py-12 p-6">
       <Heading
         title={"Skills & Technologies"}
         desc={

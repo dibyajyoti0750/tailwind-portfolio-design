@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-stone-100 px-6 md:px-24 py-4">
       <div className="flex items-center justify-between">
         <div className="text-xl font-bold antialiased">
-          <a href="#">Dibyajyoti Pramanick</a>
+          <a href="#">John Doe</a>
         </div>
 
         <div className="md:hidden">

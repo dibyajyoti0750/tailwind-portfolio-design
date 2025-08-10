@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="flex flex-col lg:flex-row px-6 md:px-14 py-8 items-center lg:items-start">
       <div className="w-full lg:w-2/3 text-start">
         <h1 className="text-4xl sm:text-5xl lg:text-5xl font-extrabold">
-          Hi, I'm <span className="text-indigo-500">Dibyajyoti Pramanick</span>
+          Hi, I'm <span className="text-indigo-500">John Doe</span>
         </h1>
 
         <p className="text-stone-500 text-xl sm:text-lg lg:text-xl py-8 max-w-xl lg:mx-0">
@@ -19,10 +19,10 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-start">
           <Button variant="contained" size="large" endIcon={<ArrowForward />}>
-            <span className="font-semibold">View My Work</span>
+            <span>View My Work</span>
           </Button>
           <Button variant="outlined" size="large" startIcon={<Download />}>
-            <span className="font-semibold">Download CV</span>
+            <span>Download CV</span>
           </Button>
         </div>
 
@@ -50,7 +50,7 @@ export default function Hero() {
 
       <div className="w-full lg:w-1/3 mt-8 lg:mt-0 flex justify-center">
         <img
-          className="border-5 border-stone-100 rounded-full w-82 shadow-2xl"
+          className="w-84 h-84 border-[6px] border-stone-100 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.2)] object-cover"
           src={assets.hero1}
           alt="Profile"
         />

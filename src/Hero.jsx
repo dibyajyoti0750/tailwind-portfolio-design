@@ -51,7 +51,7 @@ export default function Hero() {
       <div className="w-full lg:w-1/3 mt-8 lg:mt-0 flex justify-center">
         <img
           className="border-5 border-stone-100 rounded-full w-82 shadow-2xl"
-          src={assets.Selfie}
+          src={assets.hero1}
           alt="Profile"
         />
       </div>

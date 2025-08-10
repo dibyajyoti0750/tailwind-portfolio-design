@@ -41,7 +41,7 @@ export default function About() {
         <div className="w-full md:w-2/4 flex justify-center md:justify-end">
           <img
             className="w-92 rounded-2xl shadow-2xl"
-            src={assets.Selfie}
+            src={assets.hero2}
             alt="Selfie"
           />
         </div>

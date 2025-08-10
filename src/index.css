@@ -16,3 +16,7 @@
 .technologies {
   @apply bg-gray-100 text-sm rounded-4xl py-1 px-3;
 }
+
+.letsConnect {
+  @apply text-indigo-500 bg-sky-100 p-3 rounded-full;
+}
